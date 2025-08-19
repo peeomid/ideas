@@ -1,0 +1,105 @@
+Keyword,Group,Subgroup,Volume,KD
+"how to bulk delete gmail","Email Management","Bulk Delete",8100,27
+"how to label more than 100 emails in gmail","Email Organization","Labels",3600,29
+"how to send encrypted email gmail","Email Security","Encryption",3600,27
+"can you set a group policy for a gmail user","Email Administration","Settings",2900,26
+"download all attachments icon missing gmail","Email Features","Attachments",2900,23
+"gmail html email shows font different from specified","Email Display","Formatting",2900,25
+"gmail refuses to display images even when images enabled","Email Display","Images",2900,23
+"gmail painfully slow 2024","Performance","Speed",2400,25
+"best free apps to back up gmail","Email Tools","Backup",2400,23
+"free format painter gmail","Email Features","Formatting",2400,26
+"gmail in browser not showing images in emails","Email Display","Images",2400,25
+"how to all gmail to access photos","Email Access","Photos",2400,25
+"mass block gmail","Email Management","Bulk Delete",2400,29
+"how to delete all emails from one sender gmail","Email Management","Bulk Delete",2200,28
+"how do i unsend an email in gmail","Email Features","Undo Send",1900,29
+"how to bulk delete emails in gmail","Email Management","Bulk Delete",1900,29
+"how to encrypt email in gmail","Email Security","Encryption",1900,28
+"create gmail rules","Email Organization","Rules",1300,24
+"create rules in gmail","Email Organization","Rules",1300,29
+"gmail notifications not showing preview","Email Display","Notifications",1300,25
+"how to make rules in gmail","Email Organization","Rules",1200,27
+"batch export gmails with attachments","Email Management","Export",1000,28
+"can i delete my starred gmail folder","Email Organization","Folders",1000,24
+"can someone email you on gmail if you block them","Email Security","Blocking",1000,27
+"how to add keyboard shortcuts gmail","Email Features","Shortcuts",1000,23
+"restore permanently deleted emails gmail","Email Recovery","Restore",1000,25
+"gmail desktop website","Email Access","Desktop",880,29
+"how do i create a rule in gmail","Email Organization","Rules",880,28
+"how do you delete a label in gmail","Email Organization","Labels",880,27
+"how to create a rule on gmail","Email Organization","Rules",880,28
+"what does queued mean gmail","Email Features","Status",880,28
+"automaic lableing gmail","Email Organization","Labels",720,25
+"gmail sort by size","Email Organization","Sort",720,18
+"gmail what is mute conversation","Email Features","Mute",720,27
+"how to insert a table in a gmail","Email Features","Formatting",720,16
+"how to make an email template in gmail","Email Features","Templates",720,26
+"how to remove labels from gmail","Email Organization","Labels",720,24
+"gmail create rule","Email Organization","Rules",590,27
+"gmail distribution list","Email Features","Lists",590,20
+"gmail filters triggering alert","Email Organization","Filters",590,23
+"gmail how to create a filter to unsubscribe from everything","Email Organization","Filters",590,19
+"how to move certain gmail folders to another gmail account","Email Management","Transfer",590,15
+"how to see unread emails in gmail","Email Features","Status",590,22
+"how to create templates in gmail","Email Features","Templates",580,25
+"how to set an email reminder on gmail","Email Features","Reminders",550,26
+"gmail automatic reminders","Email Features","Reminders",540,24
+"how to connect chat gpt from apple to gmail","Integration","ChatGPT",520,28
+"gmail app is not working","Performance","App Issues",500,27
+"gmail not syncing on iphone","Performance","Sync",500,26
+"gmail keeps refreshing chrome","Performance","Browser",480,25
+"how to create auto signature in gmail on iphone","Email Features","Signature",450,24
+"gmail change follow up suggestion","Email Features","Follow-up",440,23
+"gmail phone app stuck logging in","Performance","App Issues",430,27
+"how to securely share a document to non gmail user","Email Security","Sharing",420,26
+"gmail view attachments as pictures","Email Features","Attachments",410,22
+"best gmail practices","Email Management","Best Practices",400,21
+"top gmail tools","Email Tools","General",380,20
+"how to use labels effectively","Email Organization","Labels",370,19
+"how to bulk delete gmail","Core Features","Cleaning & Organization",8100,27
+"how to delete all emails from one sender gmail","Core Features","Cleaning & Organization",3600,27
+"how to delete more than 50 emails in gmail","Core Features","Cleaning & Organization",2900,26
+"how to delete gmail labels","Core Features","Cleaning & Organization",1900,25
+"how to delete a label in gmail","Core Features","Cleaning & Organization",1600,24
+"how to remove labels from gmail","Core Features","Cleaning & Organization",720,24
+"how to unarchive emails in gmail","Core Features","Cleaning & Organization",1900,25
+"how to unarchive in gmail","Core Features","Cleaning & Organization",1600,29
+"how to filter unread emails in gmail","Core Features","Cleaning & Organization",1300,24
+"gmail sort by size","Core Features","Cleaning & Organization",720,18
+"gmail with lots of labels","Core Features","Organization",1600,28
+"create gmail rules","Core Features","Rule Automation",1300,24
+"how to make rules in gmail","Core Features","Rule Automation",1900,28
+"how do i create a rule in gmail","Core Features","Rule Automation",880,28
+"how to create a distribution list in gmail","Core Features","Rule Automation",1300,29
+"download all attachments icon missing gmail","Core Features","Attachment Management",2900,23
+"how to print all attachments gmail","Core Features","Attachment Management",1600,24
+"gmail view attachments as pictures","Core Features","Attachment Management",1300,25
+"show gmail attachments in incoming mail view","Core Features","Attachment Management",1000,24
+"gmail attachment not listed on the email list","Core Features","Attachment Management",880,23
+"how to set an email reminder on gmail","Value Proposition","Enhanced Productivity",1900,28
+"gmail automatic reminders","Value Proposition","Enhanced Productivity",1600,27
+"how to create a template in gmail","Value Proposition","Enhanced Productivity",1300,26
+"gmail change follow up suggestion","Value Proposition","Enhanced Productivity",1600,28
+"how to make a business gmail with no address","Value Proposition","Professional Use",1900,25
+"best gmail practices","Value Proposition","Professional Use",1300,24
+"how to use labels effectively","Value Proposition","Professional Use",1000,23
+"how to send encrypted email gmail","Value Proposition","Security",3600,27
+"how to encrypt email in gmail","Value Proposition","Security",1900,27
+"how to securely share a document to non gmail user","Value Proposition","Security",1600,26
+"gmail refuses to display images","Educational Content","Troubleshooting",2900,23
+"gmail html email shows font different","Educational Content","Troubleshooting",1600,24
+"gmail not showing preview on iphone","Educational Content","Troubleshooting",590,24
+"gmail does not save my full draft","Educational Content","Troubleshooting",1600,25
+"gmail phone app stuck logging in","Educational Content","Troubleshooting",1300,24
+"gmail painfully slow 2024","Issues","Performance",1900,21
+"gmail desktop website","Issues","Performance",880,29
+"gmail app is not working","Issues","Performance",1600,24
+"gmail not syncing on iphone","Issues","Performance",1300,25
+"gmail not updating on iphone","Issues","Performance",1300,24
+"gmail keeps wanting to download messages on mac","Issues","Performance",1000,23
+"2fa in gmail can't login","Account Management","Integration",480,24
+"outlook gmail shows imap not working","Account Management","Integration",1300,25
+"why is cpanel email not forwarding to gmail","Account Management","Integration",1000,24
+"connect whatsapp notifications to gmail","Account Management","Integration",880,23
+"mailstore home stop connect to gmail","Account Management","Integration",720,22
