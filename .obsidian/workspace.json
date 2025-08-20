@@ -11,13 +11,14 @@
             "id": "17f7d81b54e3912a",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Untitled.base",
-                "viewName": "Table"
+                "file": "ideas.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-table",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "ideas"
             }
           }
         ]
@@ -168,13 +169,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "9c7249bbb41d3a32",
+  "active": "17f7d81b54e3912a",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "2025-08-19.md",
-    "Untitled.base",
+    "projects/analysis/chatgptpro-full-analysis-revived.md",
+    "projects/analysis/chatgptpro-roadmap-reviewed.md",
+    "projects/analysis/chatgptpro-signal.md",
+    "projects/analysis/chatgptpro-roadmap.md",
+    "projects/analysis/chatgptpro-priorities.md",
+    "projects/analysis/chatgpt-signal.md",
+    "projects/analysis/chatgpt-roadmap.md",
+    "projects/analysis/chatgpt-tool-analysis.md",
+    "projects/analysis/chatgpt-priorities.md",
+    "projects/analysis/grok-priorities.md",
+    "projects/analysis/grok-priority.md",
+    "projects/analysis",
+    "projects/autosenso/mailminder/user-guide/required-content.md",
+    "projects/autosenso/mailminder/user-guide",
+    "projects/autosenso/mailminder/references/hero.md",
+    "projects/autosenso/mailminder/references",
+    "projects/autosenso/mailminder/personas/users.md",
+    "projects/autosenso/mailminder/personas/experts.md",
+    "projects/autosenso/mailminder/personas",
+    "projects/autosenso/mailminder/marketing/competitors/superhuman.md",
+    "projects/autosenso/mailminder/marketing/competitors/sanebox.md",
+    "projects/autosenso/mailminder/marketing/competitors/hey.md",
+    "projects/autosenso/mailminder/marketing/competitors/competitors.md",
+    "projects/autosenso/mailminder/marketing/automation/excel_compare.py",
+    "projects/autosenso/mailminder/marketing/automation/excel_Amy.md",
+    "projects/autosenso/mailminder/marketing/automation/requirements.txt",
+    "projects/autosenso/mailminder/marketing/todo.md",
+    "projects/autosenso/mailminder/marketing/suggestion_for_landing.md",
+    "projects/autosenso/mailminder/marketing/ref_redreach.md",
+    "projects/autosenso/mailminder/marketing/ref_headshotpro.md",
+    "projects/autosenso/mailminder/marketing/market_plan.md",
+    "projects/autosenso/mailminder/marketing/mailminder.md",
+    "projects/autosenso/mailminder/marketing/keywords.csv",
+    "projects/autosenso/mailminder/marketing/gmail_all-keywords_us_2025-01-02.csv",
+    "projects/autosenso/mailminder/marketing/competitors",
+    "projects/autosenso/mailminder/marketing/automation",
     "Untitled 1.canvas",
-    "Untitled.canvas",
-    "ideas.md"
+    "Untitled.canvas"
   ]
 }

@@ -1,124 +1,92 @@
+## Strategies
+- For traffic sites? -> Need to deploy early MVP and see how Google picks up?
+    - When it ranks, will see other keywords people are actually searching for -> this will give ideas on more tools/content
+- Need to test other channels, other than just SEO, eg Youtube, Tiktok, etc
+- Will probably build several things, then go into marketing mode while continuing to build small stuff
+- Should try to build things:
+    - Use by myself?
+    - For Sahaja? Sahaja needs more marketing, not building? Admin for form dang ky
+
+## Todo
+- Register `trochoinhom.com` -> domain will be in silo by Google, before showing on Google
+- Add GA to autosenso
+
+## Analysis
+- Grok priority analysis: [[projects/analysis/grok-priorities]]
+
 ## Working on
-0. Sahaja Yoga
 
-## Ideas considering
+### Marketing
 
-0. Devsgen: Common dev utils things -> Web version first to verify, before actually have an app
-    This is to solve common tasks I do, like regular regex replacement
-    Find and replace in bulk, that is not just 1, but a list of replaces
-    Beautify code without validating
-    -> Library of common regex patterns
+1. **Sahaja Yoga Marketing** - Reduce ad costs, improve organic reach for meditation classes → [[projects/sahaja-yoga/main-sahaja-yoga]] `(S, Non-profit)`
+    -> Need to figure out strategy for traffic
 
-    Json viewer with filter support
-
-Search over a list of lines: for example I have a logs file, I want to filter out/in certain patterns
-
-Better diff compare using AST with difftastic
-
-9. Tool convert định dạng 2 file excel
-    - File exported from one app to be imported to another -> need to convert 
-
-15. Group games
-trochoinhom.com
-Allow people to play group games online
-LIke "Ai là gián điệp" - "Who is the spy?"
-
-4. Restore qr payment generator
-    - Generate QR code for payment
-    - Allow group storing of QR codes -> Easy share of QR code/Accounts
-
-16. Mua quà gì?
-https://www.facebook.com/reel/1293123455721359
+3. **AutoSenso (MailMinder)** - Gmail filter management and email automation suite → [[projects/autosenso/mailminder/main-mailminder]] `(M, $$)`
+    - Need to review user guide
+    - Actually launch
 
 
-17. Get updates then post?
-Idea is to get updates from website people rarely check, then post to facebook?
-https://www.facebook.com/danangyeuthuong/posts/pfbid0D9UUHeh1LP1HTGhkmbK5pz96QotyXMUFBeWTUfFp7iBWPcLHq1w1Cw5PCmdsSSATl
+### Building
+2. **Devsgen** - Common dev utilities web app (regex, find/replace, beautify) → [[projects/devsgen/main-devsgen]] `(L, $$$)`
+    - Code beautifier
+    - JSON viewer
+
+### Design
+2. **Group Games Platform** - Online group games like "Who is the spy?" → [[projects/trochoinhom/main-trochoinhom]] `(M, $$)`  -> this is for traffic, need to deploy to see how it goes
+    - Going over game rules and interaction
 
 
-3. Tool to remind me on things:
-- For example I got this list of util tools: https://x.com/ChShersh/status/1956014178486870097 
-I've installed them, but to actually use them, I need periodic reminder
-    
-3. There’s a solution for that
-    Site for people to search for app/solution for their problem
-
-6. Free menu for restaurant generation
-    - Generate menu for restaurant
-    - Generate QR code for menu
-
-    -> Programmatic idea: Take menu from Google Profile -> Create site to shoe Menu online for restaurants
+### Research
 
 
-8. QR for Business
-    - Generate QR code for business
-    - Generate QR with information for business -> can customize with business info theme
-    - Analytics? -> Pixel for tracking for ads
+### Monitoring
+1. **Textua** - Text readability improvement tool (easytoread.top) → [[projects/textua/main-textua]] `(M, $$)`
+    - Already deploy MVP, will need to see in Google Search Console
 
-10. Xehoi.top -> better version
-    - Crawl car listing sites for information on car price
-    - Crawl car model information/specs
-    - Tool to compare car price with given requirements
-    - List youtube video for car review
-    - List of issues/recalls
-    - Part/service costs
-    - Maintenance schedule/cost
-    - Show safety rating, actual model -> eg Yaris Cross in VN has no rating
-    - A better UI for ncap rating, all ncap rating site UI are horrible
 
-    - Chi phí nuôi xe
+## Ideas
 
-giaxehoi.vn -> very little traffic
-    
-11. Github repo listing for different categories
-    - Problem: it's very difficult to find repo for a specific problem
-    - Solution: 
-        Group repo based on category -> search using text/natural language
+### Checking/Consider
+1. **QR Payment Generator** - Generate/share payment QR codes for groups → [[projects/qr-payment/main-qr-payment]] `(S, $$)`
+    - Restore previous payment QR codes already, seems like google pick up very quickly for some keywords
 
-12. Tool to generate link/qr to go to Google Reviews
-    So business can quickly ask their customers to leave reviews quickly
+8. **Excel Format Converter** - Convert between different app export/import formats `(S, $$)`
 
-13. How often should I change sth
-There're a lot of stuff in my house I need to maintain/change in regular basis, like car oil, water filter, etc
-I want an app that allow me to:
-- Add my thing, it can be from already defined list, or custom
-- If things are from list, it'll show suggestion predefined, like for car, what are things to maintain, how often it should be change, like after 6 month, or 10k km (can be mixed multiple units), or I can do custom, with min and max time.
-- Then it'll alert/notify me when it's time to change
-It can give me links to buy replacement, or maintenance service
+### Solution Discovery
+16. **Gift Recommendation Tool** - "Mua quà gì?" gift suggestion platform `(M, $$)`
+17. **Social Media Update Aggregator** - Crawl rarely-checked sites, post to Facebook `(L, $$)`
 
-14. Turn a google docs into readable page, with tracking/pixel
+### Medium Priority  
+5. **Restaurant Menu Generator** - Free QR menu generation, import from Google → [[projects/menu-generator/main-menu-generator]] `(M, $$$)`
+9. **QR Business Cards** - Generate themed QR codes with business info and analytics `(S, $$)`
+11. **Google Review QR Generator** - Easy QR codes for businesses to get reviews `(S, $)`
+6. **Car Comparison Tool** - Better xehoi.top with pricing, specs, maintenance costs → [[projects/car-tool/main-car-tool]] `(XL, $$$$)`
 
-7. Shopify app listing
-    - Problem: it's difficult for app developer to find app ideas, check existing shopify app with bad review to get app ideas
-    - Solution:
-        A listing site with filter/search on app stats, reviews, etc
+4. **Maintenance Reminder App** - Track when to change car oil, filters, etc → [[projects/maintenance-app/main-maintenance-app]] `(M, $$)`
+7. **Tool Reminder System** - Periodic reminders for installed CLI tools and utilities `(S, $)`
+14. **Mac Work Session Manager** - Desktop app for productivity sessions `(M, $$)`
 
-18. Mac app to manage work session
 
-19. Alert -> Pay CC
 
-## Low priority
 
-1. Flowcast: Financial forcast/what-if analysis tool
-    I can input in income, expense, and see the forecast
-    Can put in multiple types:
-        - Saving
-        - Income: Salary, etc
-        - Expense: Rent, etc
-            - Investment: Stock
-            - Debt: Loan, etc -> car loan, can set interest rate, and other details
-            - Storage: Bank account, etc -> can set interest rate
-        Each type has its own set of details I can put in, like depreciation rate, appreciation rate, etc
-            Or can have dynamic interest rate, like for car payment, there're multiple types of car loan, and each has its own interest rate: for example, first year with 5%, then from 2nd year, 10%, on remaining money
-        Each type has its own set of risk level, like investment, 
+### Low priority
 
-        Then I can do what-if analysis to compare cases, for example, if I do A, B vs C and D
+10. **GitHub Repo Categories** - Better repo discovery with natural language search `(L, $$$)`
+12. **Google Docs to Web** - Turn docs into readable pages with tracking `(M, $$)`
+1. **Flowcast** - Financial forecast/what-if analysis tool → [[projects/flowcast/main-flowcast]] `(XL, $$$)`
+2. **Problem-Solution Matching** - Site for people to find apps/solutions for problems `(L, $$$)`
+13. **Shopify App Listing** - App discovery with stats, reviews, bad app analysis → [[projects/shopify-app-listing/main-shopify-app-listing]] `(M, $$$)`
+15. **Credit Card Payment Alerts** - Automated CC payment reminders `(S, $)`
 
 ## Done
 
-5. Paste in text -> Make it readable -> easytoread.top
-    Normally, there're text like facebook post, or a text message, or website text, that are long, and difficult to read. This tool will make it readable
 
 ## For my own use
-13. Crawl real estate pricing 
-vs renting vs buying
+
+1. **Real Estate Analysis** - Crawl pricing data, rent vs buy comparison `(L, $)`
+
+---
+
+## Legend
+- `(S/M/L/XL)` = Effort estimate (Small/Medium/Large/Extra Large)
+- `($/$$/$$$/$$$)` = Revenue potential estimate
