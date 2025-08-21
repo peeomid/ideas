@@ -10,7 +10,9 @@ This is an Obsidian vault containing personal idea notes, project concepts, and 
 
 ### Main Files
 - `ideas.md` - Central hub with all project ideas organized by priority with effort estimates and links to detailed specs
-- `CLAUDE.md` - This file, instructions for Claude Code instances
+- `todo.md` - System-wide todo coordination and priority management
+- `periodic_tasks.md` - Periodic tasks to do
+- `idea_notepad.md` - Note down my ideas on the go (includes quick todo capture)
 - `building_guide.md` - Resources for building micro-SaaS products
 - `1_financial_forecast.md` - Financial planning and forecasting content
 - `traffic-growth-report.md` - Analysis or reporting on traffic growth
@@ -22,15 +24,14 @@ All detailed project information is organized under `projects/` directory:
 
 ```
 projects/
-├── codetweak/main-codetweak.md (Devsgen - dev utilities)
-├── textua/main-textua.md (Text readability tool)
-├── trochoinhom/main-trochoinhom.md (Group games platform)
-├── qr-payment/main-qr-payment.md
-├── menu-generator/main-menu-generator.md
-├── car-tool/main-car-tool.md
-├── maintenance-app/main-maintenance-app.md
-├── flowcast/main-flowcast.md
-└── [project-name]/main-[project-name].md (pattern for new projects)
+├── [project-name]/
+│   ├── main-[project-name].md (detailed project specs)
+│   ├── todo.md (project-specific task tracking)
+│   └── [other project files...]
+├── devsgen/main-devsgen.md + todo.md (dev utilities)
+├── textua/main-textua.md + todo.md (text readability tool)
+├── trochoinhom/main-trochoinhom.md + todo.md (group games platform)
+└── [other projects with main + todo files...]
 ```
 
 ## Project Organization System
@@ -77,7 +78,16 @@ The ideas span various domains:
    - File name: `projects/[project-name]/main-[project-name].md`
    - Use standard template with all sections
 
-4. **Add supporting documentation**:
+4. **Create project todo file**:
+   - File name: `projects/[project-name]/todo.md`
+   - Use standard todo template (see Todo System section)
+   - Link from main project file: `→ [[projects/project-name/todo]]`
+
+5. **Update system-wide todo**:
+   - Add project to `/todo.md` in appropriate priority section
+   - Set initial project goals
+
+6. **Add supporting documentation**:
    - Technical specs, marketing plans, etc. in project folder
    - Link from main project file
 
@@ -90,10 +100,31 @@ This is a documentation and planning repository rather than a codebase:
 3. **Obsidian Integration**: Files are designed to work within Obsidian with wiki-style linking
 4. **No Build Process**: This repository contains documentation only - no compilation or build steps required
 
+## Todo System
+
+### System-wide Todo (`/todo.md`)
+- High-level coordination across all projects
+- Weekly focus and sprint planning
+- Cross-project dependencies tracking
+- Regular review schedules
+
+### Project Todo Files (`projects/[project-name]/todo.md`)
+- Detailed task tracking per project
+- Current sprint organization (In Progress, Ready to Start, Backlog)
+- Priority levels (High, Medium, Low)
+- Blocked tasks with specific blockers
+- Completed tasks archive
+
+### Todo Management Workflow
+1. **Daily**: Check system-wide priorities, update active tasks
+2. **Weekly**: Review all project todos, plan sprints, sync with `ideas.md`
+3. **Monthly**: Archive completed todos, reassess priorities
+
 ## Common Tasks
 
 - **Adding New Ideas**: Follow the project creation workflow above
 - **Updating Project Status**: Move ideas between priority categories in `ideas.md`
+- **Task Management**: Use todo files for detailed project tracking
 - **Creating Detailed Plans**: Add supporting files in project folders and link from main project file
 - **Daily Documentation**: Use date-based filenames for daily notes and progress tracking
 - **Cross-linking**: Use wiki-style links to navigate between related project files
