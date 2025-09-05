@@ -6,6 +6,9 @@
 - [ ] Review AutoSenso (MailMinder) user guide and launch
 - [ ] Complete Devsgen code beautifier and JSON viewer features
 
+## This Week's Reading
+- [ ] Read: "Beyond Chunks: Why Context Engineering is the Future of RAG" - AI/ML insights for potential Devsgen features
+
 ## Weekly Focus
 Week of 2025-08-21:
 - [ ] Focus on marketing tasks for existing projects
