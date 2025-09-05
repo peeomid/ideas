@@ -26,10 +26,21 @@ Privacy-first developer utilities web application with client-side processing. B
 - Client-side processing for privacy
 
 ## Pending Tool (1/5)
-### 🚧 Code Beautifier
-- Beautify code without validation
-- Multiple language support
-- Client-side processing
+### 🚧 Generic Code Beautifier
+**Problem**: Need to beautify messy code/data output that doesn't conform to strict standards
+- **Non-standard JSON**: Single quotes instead of double quotes
+- **Python object dumps**: Complex nested structures from print() or repr()
+- **PHP var_dump output**: Unformatted array/object dumps
+- **Generic bracket structures**: Any text with `{`, `[`, `(` hierarchies
+
+**Features**:
+- Smart bracket detection and indentation (works with `{}`, `[]`, `()`)
+- Flexible parsing (doesn't require valid JSON/syntax)
+- Handles mixed quote styles (single/double quotes)
+- Language-agnostic approach based on structure patterns
+- Real-time formatting as you type
+- Copy formatted output
+- Client-side processing for privacy
 
 ## Tech Stack
 - **Frontend**: Astro + React + TypeScript

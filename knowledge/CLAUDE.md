@@ -4,14 +4,14 @@ This guide provides detailed instructions for using the knowledge management sys
 
 ## System Overview
 
-The knowledge management system follows a **capture → prioritize → process → connect** workflow using inbox-style organization and Maps of Content (MOCs).
+The knowledge management system follows a **capture → weekly curation → reading → connect** workflow using reading queue capture and Maps of Content (MOCs).
 
 ## File Structure
 
 ```
 knowledge/
-├── 00-inbox.md              # Capture all new links/articles/ideas
-├── 01-reading-queue.md      # Prioritized reading list
+├── 00-inbox.md              # Weekly curated reading recommendations (Claude suggests + adds to todo)
+├── 01-reading-queue.md      # All new links captured here first
 ├── 02-processed.md          # Archive view of read articles
 ├── topics/                  # Maps of Content (MOCs)
 │   ├── ai-ml-moc.md        
@@ -23,17 +23,21 @@ knowledge/
 
 ## Daily Workflow
 
-### 1. Capture (00-inbox.md)
+### 1. Capture (01-reading-queue.md)
 **When you find an interesting link/article:**
-- Add to `00-inbox.md` with format: `- [ ] [Article Title](url) - quick note about why interesting`
-- Add any quick ideas or thoughts that don't fit existing projects
-- Don't worry about organization - just capture quickly
+- Add to `01-reading-queue.md` with just the URL initially: `- [ ] https://example.com/article`
+- **Claude Code Assistant**: When you add a link, Claude should:
+  1. Fetch the article to get the title
+  2. Replace the entry with proper format: `- [ ] [Article Title](url) - topic/relevance (added: YYYY-MM-DD)`
+  3. Organize by priority: This Week, Next Week, Someday/Maybe
+- Don't worry about detailed organization - just capture quickly
 
-### 2. Prioritize (01-reading-queue.md) 
-**During weekly review:**
-- Move links from inbox to reading queue
-- Organize by priority: This Week, Next Week, Someday/Maybe
-- Add topic tags like `#ai-ml`, `#business`, `#web-dev`
+### 2. Weekly Curation (00-inbox.md)
+**Claude's responsibility:**
+- **Weekly**: Review `01-reading-queue.md` and suggest 3-5 articles for the week
+- Move suggested articles to `00-inbox.md` under "This Week's Reading"
+- **Add reading tasks to `todo.md`**: Create actionable reading tasks
+- Consider user's current projects and interests when selecting
 
 ## Article Processing Workflow
 
@@ -184,8 +188,20 @@ MOCs are topic-based index notes that organize related content. Each MOC has the
 ## Quick Reference Commands
 
 ### Daily Capture
-1. Add link to `00-inbox.md`
+1. Use `/km-link https://example.com/article` for instant processing
 2. Continue with your work
+
+### Weekly Knowledge Management  
+1. Use `/km-sort` to:
+   - Get random knowledge reminders
+   - Check for stale articles
+   - Curate this week's reading
+   - Add reading tasks to todo
+2. Focus on curated reading list for the week
+
+### Slash Commands Available
+- `/km-link URL` - Quick link capture with title fetch and date
+- `/km-sort` - Complete knowledge management: remind + weekly curation
 
 ### After Reading
 1. Create `articles/YYYY-MM-DD-title.md`

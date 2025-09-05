@@ -146,9 +146,9 @@ This is a documentation and planning repository rather than a codebase:
 - **Creating Detailed Plans**: Add supporting files in project folders and link from main project file
 
 ### Knowledge Management  
-- **Capturing Links**: Add to `knowledge/00-inbox.md` with quick notes
-- **Reading Workflow**: Move from inbox → reading queue → create article note → link to topic MOC
-- **Weekly Reviews**: Process inbox, update reading priorities, organize knowledge
+- **Quick Capture**: `/km-link URL` - Auto-fetch title, add date, organize by priority
+- **Weekly Sorting**: `/km-sort` - Random reminders + stale check + weekly curation + add to todo
+- **Reading Workflow**: Focus on curated articles → create article note → link to topic MOC
 - **Topic Organization**: Use Maps of Content (MOCs) to connect related articles and ideas
 
 ### Daily Operations

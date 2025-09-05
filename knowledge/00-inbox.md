@@ -1,16 +1,16 @@
-# Knowledge Inbox
+# This Week's Reading
 
-## New Links to Process
-*Add links here with quick notes about why they're interesting*
+## Curated Articles (Claude's Weekly Suggestions)
+*Articles Claude recommends based on your interests and current projects*
 
-- [ ] 
+- 
 
-## Quick Ideas
-*Random thoughts that don't fit projects yet*
+## Quick Ideas from Reading
+*Insights and thoughts that don't fit existing projects*
 
 - 
 
 ## Weekly Review Checklist
-- [ ] Move prioritized links to reading-queue.md
-- [ ] File quick ideas into appropriate topic MOCs
-- [ ] Clean up processed items
+- [ ] Complete curated reading articles
+- [ ] File insights into appropriate topic MOCs
+- [ ] Update reading tasks in todo.md

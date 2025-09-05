@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "51ad56b230452b51",
+        "id": "8b5d2512b4a090c2",
         "type": "tabs",
         "children": [
           {
-            "id": "e4f432efacabb17e",
+            "id": "daa6eb51714f7c9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "Gpt memory based learning.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "Gpt memory based learning"
             }
           }
         ]
@@ -154,10 +154,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e4f432efacabb17e",
+  "active": "daa6eb51714f7c9f",
   "lastOpenFiles": [
-    "traffic-growth-report.md",
+    "Gpt memory based learning.md",
+    "Research",
+    "Untitled.md",
+    "Untitled",
     "ideas.md",
+    "traffic-growth-report.md",
     "projects/sahaja-yoga/main-sahaja-yoga.md",
     "projects/autosenso/mailminder/marketing/competitors/competitors.md",
     "projects/projects/autosenso/mailminder/required-content.md",
@@ -186,11 +190,8 @@
     "projects/projects/autosenso/mailminder/automation/requirements.txt",
     "projects/autosenso/mailminder/marketing/automation/requirements.txt",
     "projects/autosenso/mailminder/marketing/suggestion_for_landing.md",
-    "projects/projects/autosenso/mailminder/suggestion_for_landing.md",
-    "projects/projects/autosenso/mailminder/brainstorm.md",
     "projects/autosenso/mailminder/marketing/automation/excel_compare.py",
     "projects/projects/autosenso/mailminder/automation/excel_compare.py",
-    "Untitled.base",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -1,11 +1,10 @@
 # System-wide Todo
 
 ## Active Priorities
-- [ ] Register `trochoinhom.com` - domain will be in silo by Google before showing on Google
+- [x] Register `trochoinhom.com` - domain will be in silo by Google before showing on Google
 - [ ] Add GA to AutoSenso for tracking
 - [ ] Review AutoSenso (MailMinder) user guide and launch
 - [ ] Complete Devsgen code beautifier and JSON viewer features
-- [ ] Deploy Trochoinhom MVP to test Google ranking
 
 ## Weekly Focus
 Week of 2025-08-21:

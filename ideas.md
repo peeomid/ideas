@@ -8,23 +8,26 @@
     - For Sahaja? Sahaja needs more marketing, not building? Admin for form dang ky
 
 ## Todo
-- Register `trochoinhom.com` -> domain will be in silo by Google, before showing on Google
-- Add GA to autosenso
+- Tools for devsgen -> finish basic 
 
 ## Analysis
 - Grok priority analysis: [[projects/analysis/grok-priorities]]
 
 ## Working on
 
+### Full-time Work
+1. **Bowtie** - Full-time job and primary income source → [[projects/bowtie/main-bowtie]] `(XL, $$$$)`
+    - Daily development and professional responsibilities
+    - Sprint deliverables and team coordination
+
 ### Marketing
 
-1. **Sahaja Yoga Marketing** - Reduce ad costs, improve organic reach for meditation classes → [[projects/sahaja-yoga/main-sahaja-yoga]] `(S, Non-profit)`
+2. **Sahaja Yoga Marketing** - Reduce ad costs, improve organic reach for meditation classes → [[projects/sahaja-yoga/main-sahaja-yoga]] `(S, Non-profit)`
     -> Need to figure out strategy for traffic
 
 3. **AutoSenso (MailMinder)** - Gmail filter management and email automation suite → [[projects/autosenso/mailminder/main-mailminder]] `(M, $$)`
     - Need to review user guide
     - Actually launch
-
 
 ### Building
 2. **Devsgen** - Common dev utilities web app (regex, find/replace, beautify) → [[projects/devsgen/main-devsgen]] `(L, $$$)`
@@ -55,8 +58,10 @@
 ### Solution Discovery
 16. **Gift Recommendation Tool** - "Mua quà gì?" gift suggestion platform `(M, $$)`
 17. **Social Media Update Aggregator** - Crawl rarely-checked sites, post to Facebook `(L, $$)`
+18. **Telegram Message Manager** - Open source multi-bot message management system with API, analytics dashboard → [[projects/telegram-manager/main-telegram-manager]] `(L, $$$)`
 
 ### Medium Priority  
+- **BenchmarkCompare** - Side-by-side computer specs & benchmark comparison tool → [[projects/benchmarkcompare/main-benchmarkcompare]] `(M, $$$)`
 5. **Restaurant Menu Generator** - Free QR menu generation, import from Google → [[projects/menu-generator/main-menu-generator]] `(M, $$$)`
 9. **QR Business Cards** - Generate themed QR codes with business info and analytics `(S, $$)`
 11. **Google Review QR Generator** - Easy QR codes for businesses to get reviews `(S, $)`
@@ -80,6 +85,12 @@
 
 ## Done
 
+
+## Maintenance Mode
+
+1. **Hau Ads** - Side project in maintenance mode with occasional tasks → [[projects/hau-ads/main-hau-ads]] `(S, $)`
+    - Low maintenance revenue stream
+    - Random jobs and updates as needed
 
 ## For my own use
 
