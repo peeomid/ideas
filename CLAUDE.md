@@ -34,6 +34,23 @@ projects/
 └── [other projects with main + todo files...]
 ```
 
+### Knowledge Management Structure
+Personal knowledge base organized under `knowledge/` directory:
+
+```
+knowledge/
+├── 00-inbox.md (capture new links/articles/ideas)
+├── 01-reading-queue.md (prioritized reading list)  
+├── 02-processed.md (archive of read articles)
+├── topics/ (Maps of Content for different subjects)
+│   ├── ai-ml-moc.md
+│   ├── web-dev-moc.md
+│   ├── business-moc.md
+│   └── productivity-moc.md
+├── articles/ (individual article notes after reading)
+└── CLAUDE.md (detailed knowledge management guide)
+```
+
 ## Project Organization System
 
 ### Main Ideas File (`ideas.md`)
@@ -122,9 +139,19 @@ This is a documentation and planning repository rather than a codebase:
 
 ## Common Tasks
 
+### Project Management
 - **Adding New Ideas**: Follow the project creation workflow above
 - **Updating Project Status**: Move ideas between priority categories in `ideas.md`
 - **Task Management**: Use todo files for detailed project tracking
 - **Creating Detailed Plans**: Add supporting files in project folders and link from main project file
-- **Daily Documentation**: Use date-based filenames for daily notes and progress tracking
+
+### Knowledge Management  
+- **Capturing Links**: Add to `knowledge/00-inbox.md` with quick notes
+- **Reading Workflow**: Move from inbox → reading queue → create article note → link to topic MOC
+- **Weekly Reviews**: Process inbox, update reading priorities, organize knowledge
+- **Topic Organization**: Use Maps of Content (MOCs) to connect related articles and ideas
+
+### Daily Operations
+- **Daily Documentation**: Use date-based filenames for daily notes and progress tracking  
 - **Cross-linking**: Use wiki-style links to navigate between related project files
+- **Knowledge Discovery**: Use backlinks and graph view to find connections
