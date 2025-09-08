@@ -1,5 +1,14 @@
 # System-wide Todo
 
+## Wanna do this week
+- Hau ads: Test DB connection 
+- Bowtie:
+    - Superplan UAT issues
+    - Multi-plan?
+        -> Prepare a SOP on handling it
+- FPS:
+    - Refund?
+
 ## Active Priorities
 - [x] Register `trochoinhom.com` - domain will be in silo by Google before showing on Google
 - [ ] Add GA to AutoSenso for tracking

@@ -34,6 +34,11 @@
     - Code beautifier
     - JSON viewer
 
+3. **Project Manager Tool** - Automation for markdown-based project management with Telegram, Things, and Google Home integration → [[projects/project-manager/main-project-manager]] `(M, $)`
+    - Daily summaries to Telegram
+    - Things app sync
+    - Google Home todo casting
+
 ### Design
 2. **Group Games Platform** - Online group games like "Who is the spy?" → [[projects/trochoinhom/main-trochoinhom]] `(M, $$)`  -> this is for traffic, need to deploy to see how it goes
     - Going over game rules and interaction
