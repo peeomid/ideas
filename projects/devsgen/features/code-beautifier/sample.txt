@@ -1,0 +1,4 @@
+{
+    "code": "age_ranged_premium_not_found",
+    "message": "Cannot map member segment MemberSegment(product_code='sunlife-superplan-product-medical-option-a-ip1a-op2a-d3a-l1a-c1a-add1a-tpd1a', role='employee', count=1, date_of_birth=datetime.date(2025, 1, 27), gender='female', benefit_category_code='2025-04-sunlife-superplan-product-medical-option-a-ip1a-op2a-d3a-l1a-c1a-add1a-tpd1a-inpatient-ip1a', total_sum_assured=None, underwriting_case_id='', underwriting_loadings=[], application_ids=['8fad9a0a-90fd-467b-8b79-deeaaedce781'], policy_numbers=[]) to any age ranged premiums"
+}

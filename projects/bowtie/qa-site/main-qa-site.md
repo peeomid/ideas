@@ -8,6 +8,9 @@
 FastAPI backend that parses markdown Q&A content and provides search API, with simple frontend interface.
 Database: SQLite vs postgres
 
+## Ideas:
+- A business knowledge base/terms would help?
+
 ## MVP Features
 - Service:
     - Parse markdown file and store into database

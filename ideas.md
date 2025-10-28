@@ -1,4 +1,6 @@
 ## Strategies
+- Business content: Focus on Home Services & Contractors
+
 - For traffic sites? -> Need to deploy early MVP and see how Google picks up?
     - When it ranks, will see other keywords people are actually searching for -> this will give ideas on more tools/content
 - Need to test other channels, other than just SEO, eg Youtube, Tiktok, etc
@@ -7,8 +9,28 @@
     - Use by myself?
     - For Sahaja? Sahaja needs more marketing, not building? Admin for form dang ky
 
+    - Build actual useful tools first
+        - Trochoinhom
+        - Excel converter
+        - QR generator
+        - SRT translation -> Use to translate Shri Mataji's talk
+    - Then build directory and content -> distribution
+    - Trochoinhom -> live quiz
+    - More approaches for mailminder -> Current script should be very cheap/free -> add more services on top? 
+
 ## Todo
 - Tools for devsgen -> finish basic 
+
+## random ideas to evaluate
+- https://x.com/thekitze/status/1968603770167726252 -> list of baby essential items
+- AI directory for actual business usages/directory of tools to use 
+- https://www.airbridge.io/vi/library/airbridge-handbook-aso nice font reading on mobile 
+- https://x.com/illyism/status/1970895718438076598 -> clickup seo
+- https://www.youtube.com/watch?v=ZCdY1SLreck -> Selling canva
+    A lot of people want certain templates -> Can auto generate stuff, given excel/csv -> generate something -> canva has similar things, so validated? Can target more boring/business related things
+- Can make use of OCR for biz purpose?
+- Compare sites, to compare all sort of things, phones, laptop, chips
+- use AI to block not good content on youtube for kids
 
 ## Analysis
 - Grok priority analysis: [[projects/analysis/grok-priorities]]
@@ -40,15 +62,19 @@
     - Google Home todo casting
 
 ### Design
-2. **Group Games Platform** - Online group games like "Who is the spy?" → [[projects/trochoinhom/main-trochoinhom]] `(M, $$)`  -> this is for traffic, need to deploy to see how it goes
+2. **Group Games Platform (VN)** - Online group games like "Who is the spy?" → [[projects/trochoinhom/main-trochoinhom]] `(M, $$)`  -> this is for traffic, need to deploy to see how it goes
     - Going over game rules and interaction
+
+3. **Group Games Platform (US)** - English version for US market → [[projects/thegamehaschanged/main-thegamehaschanged]] `(M, $$$)`
+    - Fork of trochoinhom.com adapted for Western markets
+    - US-focused marketing and localization
 
 
 ### Research
 
 
 ### Monitoring
-1. **Textua** - Text readability improvement tool (easytoread.top) → [[projects/textua/main-textua]] `(M, $$)`
+1. **Textua** -> **easytoread** - Text readability improvement tool (easytoread.top) → [[projects/textua/main-textua]] `(M, $$)`
     - Already deploy MVP, will need to see in Google Search Console
 
 
@@ -57,6 +83,10 @@
 ### Checking/Consider
 1. **QR Payment Generator** - Generate/share payment QR codes for groups → [[projects/qr-payment/main-qr-payment]] `(S, $$)`
     - Restore previous payment QR codes already, seems like google pick up very quickly for some keywords
+
+2. **Tech Guide Site** - Step-by-step technology tutorials for small businesses → [[projects/tech-guide-site/main-tech-guide-site]] `(L, $$$)`
+    - Make technology simple with actionable guides, not vague content
+    - Target small business owners who need practical tech solutions
 
 8. **Excel Format Converter** - Convert between different app export/import formats `(S, $$)`
 

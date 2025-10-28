@@ -1,10 +1,16 @@
 # Devsgen
 
+**Things Project**: Devsgen (Work area)
+
 ## Problem
 Developers need common utility tools for everyday tasks like regex replacement, bulk find/replace, code beautification, and JSON viewing - but existing tools are scattered or inadequate.
 
 ## Solution  
 Privacy-first developer utilities web application with client-side processing. Built with Astro, React, and TypeScript for optimal performance and SEO.
+
+## Improvement
+- SEO
+  - "comma to new line" -> Return this page https://devsgen.com/tools/regex-find-replace/ -> Not optimized for SEO
 
 ## Current Status ✅
 **Live at**: [devsgen.com](https://devsgen.com)

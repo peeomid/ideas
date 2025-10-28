@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fa35a8e717509739",
+        "id": "df9cd148e698d77a",
         "type": "tabs",
         "children": [
           {
-            "id": "17f7d81b54e3912a",
+            "id": "1334f586a750c017",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ideas.md",
+                "file": "more_todos.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ideas"
+              "title": "more_todos"
+            }
+          },
+          {
+            "id": "678b14cde0026222",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/devsgen/main-devsgen.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "main-devsgen"
             }
           }
         ]
@@ -169,8 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "17f7d81b54e3912a",
+  "active": "1334f586a750c017",
   "lastOpenFiles": [
+    "projects/devsgen/main-devsgen.md",
+    "more_todos.md",
+    "ideas.md",
     "projects/qr-payment/todo.md",
     "projects/sahaja-yoga/todo.md",
     "projects/sahaja-yoga/todo.md.tmp.42163.1755770729042",
@@ -199,10 +216,7 @@
     "projects/autosenso/mailminder/references/hero.md",
     "projects/autosenso/mailminder/references",
     "projects/autosenso/mailminder/personas/users.md",
-    "projects/autosenso/mailminder/personas/experts.md",
     "projects/autosenso/mailminder/personas",
-    "projects/autosenso/mailminder/marketing/competitors/superhuman.md",
-    "projects/autosenso/mailminder/marketing/competitors/sanebox.md",
     "projects/autosenso/mailminder/marketing/automation/excel_compare.py",
     "projects/autosenso/mailminder/marketing/automation/requirements.txt",
     "projects/autosenso/mailminder/marketing/keywords.csv",

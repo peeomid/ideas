@@ -1,21 +1,32 @@
 # Trochoinhom
 
+**Things Project**: Trochoinhom (Work area)
+
 ## Problem
 People want to play group games online but lack a platform for games like "Who is the Spy?" and other social party games.
+
+## Ideas
+- Locations of team building stuff -> https://teambuilding.com/
+- Ref: https://www.sessionlab.com/library/energiser?utm_source=chatgpt.com
+- Session template: https://www.sessionlab.com/templates/
+- Pre-made team building plan
+- Game -> Need images demo how it's played?
 
 ## Solution
 Online platform for group games that can be played remotely or in person, starting with "Who is the Spy?" game.
 
-## MVP Features
-- "Who is the Spy?" game implementation
-- Room creation and joining
-- Multiple device support
+## MVP Features (Single Device Focus)
+- "Who is the Spy?" game implementation (client-side only)
 - Single device shared screen mode
-- Game state management
+- Vietnamese/English bilingual support
+- Game state management (local only)
+- Future-proof structure for additional games
 
 ## Tech Stack
-- Web application with real-time capabilities
-- Multi-device synchronization
+- Astro framework for static site generation
+- Client-side JavaScript for game logic
+- No backend required for MVP
+- Responsive design for mobile/tablet
 
 ## Implementation Status
 - [x] Planning

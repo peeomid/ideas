@@ -14,10 +14,16 @@ knowledge/
 ├── 01-reading-queue.md      # All new links captured here first
 ├── 02-processed.md          # Archive view of read articles
 ├── topics/                  # Maps of Content (MOCs)
-│   ├── ai-ml-moc.md        
-│   ├── web-dev-moc.md      
-│   ├── business-moc.md     
-│   └── productivity-moc.md 
+│   ├── ai-ml-moc.md
+│   ├── web-dev-moc.md
+│   ├── business-moc.md
+│   └── productivity-moc.md
+├── tools/                   # Useful tools organized by category
+│   ├── web-dev-tools.md
+│   ├── design-tools.md
+│   ├── productivity-tools.md
+│   ├── ai-ml-tools.md
+│   └── business-tools.md
 └── articles/                # Individual article notes (auto-created)
 ```
 
@@ -212,5 +218,46 @@ MOCs are topic-based index notes that organize related content. Each MOC has the
 1. Process `00-inbox.md` → `01-reading-queue.md`
 2. Update MOCs with new connections
 3. Plan reading priorities for the week
+
+## Tools Management
+
+### Tools Directory Structure
+The `tools/` directory organizes useful tools by category for easy discovery and reference.
+
+### Tool Categories
+- **web-dev-tools.md** - Development utilities, frameworks, libraries
+- **design-tools.md** - UI/UX design, graphics, visual assets
+- **productivity-tools.md** - Task management, automation, workflows
+- **ai-ml-tools.md** - AI/ML platforms, APIs, development tools
+- **business-tools.md** - Analytics, marketing, finance, operations
+
+### Tool Workflow
+
+**Quick Tool Capture:**
+1. Add directly to appropriate tools file: `- [Tool Name](url) - Brief description`
+2. Use `/tools-add` command for assisted categorization
+3. Start in "Discovered Tools" section
+
+**Tool Evaluation Process:**
+1. **Discovered Tools** → Try the tool in a project
+2. **Active Tools** → Currently using, proven valuable
+3. **Evaluated Tools** → Tested but decided not to adopt (with reasons)
+
+**Tool Entry Template:**
+```markdown
+- [Tool Name](url) - What it does, use case, why useful/not useful
+```
+
+**Integration with Projects:**
+- Link tools to projects when implementing: `→ Used in [[projects/project-name/main-project-name]]`
+- Reference tools in project documentation
+- Track tool effectiveness across projects
+
+### Weekly Tools Review
+During weekly knowledge review:
+1. Move tools between categories based on usage
+2. Remove outdated or irrelevant tools
+3. Add new tools discovered during the week
+4. Update tool descriptions with recent experience
 
 This system grows with you - start simple and add complexity as needed.

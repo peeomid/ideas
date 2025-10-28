@@ -1,5 +1,7 @@
 # Textua
 
+**Things Project**: Textua (Work area)
+
 ## Problem
 Long, difficult-to-read text from social media posts, messages, or websites need formatting and structure to be easily digestible.
 

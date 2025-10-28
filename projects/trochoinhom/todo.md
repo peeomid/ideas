@@ -2,33 +2,29 @@
 
 ## Current Sprint (Week of 2025-08-21)
 ### In Progress
-- [ ] Register trochoinhom.com domain
-- [ ] Finalize game rules and interaction design
 
 ### Ready to Start
-- [ ] Implement "Who is the spy?" game MVP
-- [ ] Create basic game lobby system
-- [ ] Deploy initial version for testing
 
 ## Backlog
+### Listing
+- Content/Kw plans for both trochoinhom and thegamehaschanged
+- Build out page templates
+- Get games content
+    -> First: Need to gather entities/columns needed
+    - VN first
+    - EN later
+- Clone trochoinhom to thegamehaschanged
+    -> Redirect?
+    -> Restore old domain links
+
+
 ### High Priority
-- [ ] Test Google ranking with deployed MVP
-- [ ] Implement multi-device game interaction
-- [ ] Create simple, intuitive UI/UX
 
 ### Medium Priority
-- [ ] Add more group games beyond "Who is the spy?"
-- [ ] Implement room creation and joining
-- [ ] Add basic game statistics
 
 ### Low Priority / Ideas
-- [ ] Advanced game features and variants
-- [ ] User accounts and game history
-- [ ] Social sharing features
 
 ## Blocked
-- [ ] Domain registration needed before deployment
-- [ ] Game interaction flow needs final review
 
 ## Completed (This Week)
 - [x] Business requirements documented

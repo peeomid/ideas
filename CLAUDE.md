@@ -11,6 +11,7 @@ This is an Obsidian vault containing personal idea notes, project concepts, and 
 ### Main Files
 - `ideas.md` - Central hub with all project ideas organized by priority with effort estimates and links to detailed specs
 - `todo.md` - System-wide todo coordination and priority management
+- `focus.md` - Daily focus file showing current task and today's priorities (derived from todo.md)
 - `periodic_tasks.md` - Periodic tasks to do
 - `idea_notepad.md` - Note down my ideas on the go (includes quick todo capture)
 - `building_guide.md` - Resources for building micro-SaaS products
@@ -40,13 +41,19 @@ Personal knowledge base organized under `knowledge/` directory:
 ```
 knowledge/
 ├── 00-inbox.md (capture new links/articles/ideas)
-├── 01-reading-queue.md (prioritized reading list)  
+├── 01-reading-queue.md (prioritized reading list)
 ├── 02-processed.md (archive of read articles)
 ├── topics/ (Maps of Content for different subjects)
 │   ├── ai-ml-moc.md
 │   ├── web-dev-moc.md
 │   ├── business-moc.md
 │   └── productivity-moc.md
+├── tools/ (useful tools organized by category)
+│   ├── web-dev-tools.md
+│   ├── design-tools.md
+│   ├── productivity-tools.md
+│   ├── ai-ml-tools.md
+│   └── business-tools.md
 ├── articles/ (individual article notes after reading)
 └── CLAUDE.md (detailed knowledge management guide)
 ```
@@ -145,13 +152,59 @@ This is a documentation and planning repository rather than a codebase:
 - **Task Management**: Use todo files for detailed project tracking
 - **Creating Detailed Plans**: Add supporting files in project folders and link from main project file
 
-### Knowledge Management  
+### Knowledge Management
 - **Quick Capture**: `/km-link URL` - Auto-fetch title, add date, organize by priority
 - **Weekly Sorting**: `/km-sort` - Random reminders + stale check + weekly curation + add to todo
 - **Reading Workflow**: Focus on curated articles → create article note → link to topic MOC
 - **Topic Organization**: Use Maps of Content (MOCs) to connect related articles and ideas
 
+### Tools Management
+- **Tool Discovery**: Add useful tools to appropriate category file in `knowledge/tools/`
+- **Quick Tool Capture**: `- [Tool Name](url) - Brief description and use case`
+- **Tool Categories**: Web dev, design, productivity, AI/ML, business tools
+- **Tool Workflow**: Discovered → Active (proven useful) → Evaluated (tested but not adopted)
+- **Integration**: Link tools to projects when implementing, track effectiveness
+
 ### Daily Operations
-- **Daily Documentation**: Use date-based filenames for daily notes and progress tracking  
+- **Daily Documentation**: Use date-based filenames for daily notes and progress tracking
 - **Cross-linking**: Use wiki-style links to navigate between related project files
 - **Knowledge Discovery**: Use backlinks and graph view to find connections
+
+## Things App Integration
+
+This workspace is integrated with Things app for task management. Project mapping between workspace and Things:
+
+### Active Project Mapping (Things ↔ Workspace)
+- **Bowtie** ↔ `projects/bowtie/main-bowtie.md` - Full-time work project
+- **SY** ↔ `projects/sahaja-yoga/main-sahaja-yoga.md` - Marketing/non-profit project
+- **Gmail Filter** ↔ `projects/autosenso/main-autosenso.md` - MailMinder project
+- **Hậu ads** ↔ `projects/hau-ads/main-hau-ads.md` - Maintenance mode project
+- **Devsgen** ↔ `projects/devsgen/main-devsgen.md` - Dev utilities project
+- **Trochoinhom** ↔ `projects/trochoinhom/main-trochoinhom.md` - Group games platform
+- **Textua** ↔ `projects/textua/main-textua.md` - Text readability tool
+- **Project Manager** ↔ `projects/project-manager/main-project-manager.md` - Automation tool
+
+### Development Tools Collection (in Osimify Things Project)
+Projects tracked as todos within Osimify project:
+- **QR Payment Generator** ↔ `projects/qr-payment/main-qr-payment.md`
+- **Tech Guide Site** ↔ `projects/tech-guide-site/main-tech-guide-site.md`
+- **BenchmarkCompare** ↔ `projects/benchmarkcompare/main-benchmarkcompare.md`
+- **Menu Generator** ↔ `projects/menu-generator/main-menu-generator.md`
+- **Car Tool** ↔ `projects/car-tool/main-car-tool.md`
+- **Maintenance App** ↔ `projects/maintenance-app/main-maintenance-app.md`
+- **Flowcast** ↔ `projects/flowcast/main-flowcast.md`
+- **Telegram Manager** ↔ `projects/telegram-manager/main-telegram-manager.md`
+
+### General Collections (Things Projects)
+- **Ideas** - Contains miscellaneous development ideas and small tasks
+- **Osimify** - Contains development tools and technical projects
+- **MMO** - Traffic generation and content creation projects
+- **LLM** - AI/automation related tasks and learning
+- **Important & Personal** - Personal life management tasks
+- **Bored** - Learning resources and personal development
+
+### Things Integration Notes
+- Each project file should reference its corresponding Things project in the header
+- When creating new workspace projects, consider whether they need dedicated Things projects or fit within existing collections
+- Active development projects get dedicated Things projects; idea-stage projects go in collections
+- Use Things project notes field to reference workspace file paths for easy navigation

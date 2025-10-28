@@ -1,5 +1,7 @@
 # Project Manager Tool
 
+**Things Project**: Project Manager (Work area)
+
 ## Problem Statement
 
 Currently managing projects and todos using Claude Code with markdown files in Obsidian. While this works well for documentation and planning, it lacks automation and integration with other tools for daily workflows.
